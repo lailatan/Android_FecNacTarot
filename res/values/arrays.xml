@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="settings_deck_entries_by_label">
+        <item>@string/settings_deck_raiderwaite_label</item>
+        <item>@string/settings_deck_marsella_label</item>
+    </string-array>
+
+    <string-array name="settings_deck_entryValues_value">
+        <item>@string/settings_deck_raiderwaite_value</item>
+        <item>@string/settings_deck_marsella_value</item>
+    </string-array>
+</resources>

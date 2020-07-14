@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_padding">16dp</dimen>
+    <dimen name="image">100dp</dimen>
+    <dimen name="row_padding">8dp</dimen>
+    <dimen name="title_text">40dp</dimen>
+    <dimen name="title_margin">40dp</dimen>
+    <dimen name="button_text">30dp</dimen>
+    <dimen name="button_margin">10dp</dimen>
+    <dimen name="normal_text">20dp</dimen>
+    <dimen name="normal_margin">5dp</dimen>
+    <dimen name="medium_margin">20</dimen>
+    <dimen name="small_margin">2dp</dimen>
+</resources>

@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="FN_Day">Día</string>
+    <string name="FN_Day_Descripcion">Arcano arquetipo de la persona. Dones/Talentos/Personalidad. Energias presentes + o -. Tipo de Situaciones/Vinculos que atrae.</string>
+    <string name="FN_Month">Mes</string>
+    <string name="FN_Month_Description">Karma que viene a resolver o trnsmutar. Lo que se debe trabajar. Que se debe aceptar/sanar/trascender. Sombra-Conflicto. Comportamientos rutinarios.</string>
+    <string name="FN_Year">Año</string>
+    <string name="FN_Year_Description">Proyecto sentido. Como estaba conformada la familia al momento de la gestación. Como fue la llegada.</string>
+    <string name="FN_Destiny">Nro. Destino</string>
+    <string name="FN_Destiny_Description">Llamado también Sendero de Vida, Camino de Vida. Sentido de Vida / Hacia donde ir  / Hoja de Ruta. Marca profesiones, labores, actos. Marca potencial, habilidades, dones adquiridos y a poner en practica.</string>
+    <string name="FN_Task">Tarea</string>
+    <string name="FN_Task_Description">Mision del Alma a desarrollar, descubrir y/o ejercer. Labor a desarrollar y desempeñr junto al destino. Proposito o mision que se debe transitar en dicho Nro Destino. Se vive en la luz (atrae) o en el rechazo (crisis como enfermedad, accidente, etc).</string>
+
+
+    <string name="FN_KarmicNumber">Número Kármico</string>
+    <string name="FN_MasterNumber">Número Maestro</string>
+
+</resources>

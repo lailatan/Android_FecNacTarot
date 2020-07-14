@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Tarot</string>
+
+    <string name="birth_day">Fecha Nacimiento</string>
+    <string name="day_arcane">Arcano del día</string>
+
+    <string name="raider_white">Raider White</string>
+    <string name="marsella">Marsella</string>
+
+    <string name="enter_date">Ingrese su fecha de Nacimiento...</string>
+    <string name="day">Día</string>
+    <string name="month">Mes</string>
+    <string name="year">Año</string>
+    <string name="next">Continuar</string>
+    <string name="deck">Mazo:</string>
+
+    <string name="message_enter_value">Debe ingresar un valor</string>
+    <string name="message_year_4_digits">El Año debe tener 4 dígitos</string>
+    <string name="message_enter_valid_day">Debe ingresar un día válido</string>
+    <string name="message_enter_valid_month">Debe ingresar un mes válido</string>
+    <string name="message_enter_valid_date">Ingrese una fecha válida</string>
+
+    <string name="bar">/</string>
+    <string name="age_important_event">Edad Evento Clave:</string>
+    <string name="year_important_event">Año:</string>
+    <string name="cycle_event_repetition">Ciclo:</string>
+    <string name="previous_life_destiny_number">Nro Destino previo: </string>
+
+    <string name="type_day">Día</string>
+    <string name="type_month">Mes</string>
+    <string name="type_year">Año</string>
+    <string name="type_destiny_number">Nro Destino</string>
+    <string name="type_task">Tarea</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="date">Fecha :</string>
+    <string name="daily_arcane">Arcano del día...</string>
+    <string name="direct_number">Nro. Directo</string>
+    <string name="reduced_number">Nro. Reducido</string>
+    <string name="arcanes">Arcanos</string>
+    <string name="no_internet_available">Para utilizar el mazo completo es necesario conexión a internet. \nSe muestran solo Arcanos Mayores.</string>
+    <string name="meaning_reversed">Significado al Revés</string>
+    <string name="meaning_up">Significado al Derecho</string>
+    <string name="all_internet_required">Todo el Mazo </string>
+    <string name="mayors_only">Solo Mayores</string>
+    <string name="serching_internet_information">Buscando información en Internet...</string>
+    <string name="the_number">el número</string>
+    <string name="tool">\"Herramienta: \"</string>
+    <string name="limiting">\"Limitante: \"</string>
+    <string name="select_query">Seleccione su consulta...</string>
+
+    <!-- Strings Para las preferencias Solo Arcanos Mayores [CHAR LIMIT=30] -->
+    <string name="settings_only_major_arcana_label">Usar solo Arcanos Mayores</string>
+    <string name="settings_only_major_arcana_key" translatable="false">solo_mayores</string>
+    <string name="settings_only_major_arcana_default" translatable="false">false</string>
+
+    <!-- Strings Para elegir mazo  [CHAR LIMIT=30] -->
+    <string name="settings_deck_label">Mazo </string>
+    <string name="settings_deck_key" translatable="false">deck</string>
+    <string name="settings_deck_default" translatable="false">0</string>
+
+    <string name="settings_deck_raiderwaite_label">Raider Waite</string>
+    <string name="settings_deck_raiderwaite_value" translatable="false">0</string>
+
+    <string name="settings_deck_marsella_label">Marsella</string>
+    <string name="settings_deck_marsella_value" translatable="false">1</string>
+    <string name="item_menu">Item menu</string>
+    <string name="configuration">Configuración:</string>
+
+</resources>
