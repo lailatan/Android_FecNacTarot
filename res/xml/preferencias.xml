@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/configuration">
+
+    <CheckBoxPreference
+        android:key="@string/settings_only_major_arcana_key"
+        android:defaultValue="@string/settings_only_major_arcana_default"
+        android:title="@string/settings_only_major_arcana_label" />
+
+    <ListPreference
+        android:defaultValue="@string/settings_deck_default"
+        android:entries="@array/settings_deck_entries_by_label"
+        android:entryValues="@array/settings_deck_entryValues_value"
+        android:key="@string/settings_deck_key"
+        android:title="@string/settings_deck_label" />
+    </PreferenceCategory>
+</PreferenceScreen>
