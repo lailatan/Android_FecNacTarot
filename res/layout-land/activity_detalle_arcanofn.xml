@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetalleArcanoFNActivity"
+    android:background="@drawable/pergamino5"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_text"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginLeft="@dimen/title_margin"
+                    android:layout_marginRight="@dimen/button_margin"
+                    tools:text="Nro Destino: "
+                    android:id="@+id/tareaPpalTV"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/title_text"
+                    android:textColor="@color/colorPrimaryDark"
+                    tools:text="El Mago"
+                    android:id="@+id/arcanoPpalTV" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="right"
+                android:gravity="right" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normal_text"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_gravity="center_horizontal"
+                    tools:text="Directo: 32"
+                    android:id="@+id/nroDirectoTV"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normal_text"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:layout_marginRight="@dimen/title_margin"
+                    android:layout_marginLeft="@dimen/title_margin"
+                    android:gravity="center"
+                    android:text="@string/bar" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/normal_text"
+                    android:textColor="@color/colorPrimaryDark"
+                    tools:text="Reducido: 5"
+                    android:id="@+id/nroReducidoTV"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="5dp"
+                android:src="@drawable/estrellas2"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".4"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".3"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/button_margin"
+                android:src="@drawable/reverso"
+                android:id="@+id/arcanoPpalIG"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:layout_margin="@dimen/button_margin"
+            android:paddingRight="@dimen/title_margin"
+            android:orientation="vertical"
+            android:gravity="center" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollIndicators="right"
+                android:scrollbarStyle="insideOverlay"
+                android:scrollbars="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/normal_text"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            tools:text="Nro Destino: "
+                            android:id="@+id/tareaNombreTV"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/normal_text"
+                            tools:text="Bla bla bla bla bla bla"
+                            android:id="@+id/tareaDescTV"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/normal_text"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            tools:text="El Loco: "
+                            android:id="@+id/arcanoNombreTV"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="@dimen/normal_text"
+                                android:textColor="@color/colorPrimaryDark"
+                                tools:text="Bla bla bla."
+                                android:id="@+id/arcanoDescCortaTV"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/normal_text"
+                            tools:text="Bla bla bla \n Ble Ble Ble."
+                            android:id="@+id/arcanoDescLargaTV"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/normal_text"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimaryDark"
+                            tools:text="33 - Nro Kármico "
+                            android:id="@+id/nroMaestroKarmicoTV"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="@dimen/normal_text"
+                            tools:text="Bla bla bla bla bla bla."
+                            android:id="@+id/nroMaestroKarmicoDescTV"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
