@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fechanactarot">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/estrellas_ico"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/estrella_ico"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".PreferenciasActivity" />
+        <activity
+            android:name=".MostrarArcanoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DetalleArcanoFNActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".PedirFechaNacimientoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".FechaNacimientoActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
